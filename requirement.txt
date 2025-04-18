@@ -1,0 +1,18 @@
+pip install fastapi uvicorn onnxruntime numpy opencv-python
+uvicorn your_app_file:app --reload(Run API)
+pip install onnxruntime
+pip install onnxruntime-gpu
+other:
+conda create -n onnxruntime python=3.9.19
+conda activate onnxruntime
+python -m venv onnxruntime_env
+onnxruntime_env\Scripts\activate
+pip install numpy
+pip install onnxruntime
+========================
+Structure:
+.
+├── main.py
+├── templates/
+│   └── index.html
+├── static/
